@@ -14,7 +14,7 @@ RUN <<EOF
 EOF
 
 RUN <<EOF
-    useradd -o -m -u 1000 user
+    useradd -m -o -u 1000 user
 EOF
 
 ARG MCSTATUS_VERSION=9.3.0
